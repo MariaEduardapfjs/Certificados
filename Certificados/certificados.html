@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Certificados</title>
+  <link rel="stylesheet" href="CSS/certificados.css" />
+</head>
+<body>
+
+  <div class="form-box certificados-box">
+    <h2>Emissão de Certificados</h2>
+    <a href="inicio.html" class="link-voltar">&larr; Voltar ao Dashboard</a> 
+
+    <label for="seleciona-aluno">Selecionar Aluno</label>
+    <select id="seleciona-aluno"></select>
+
+    <label for="seleciona-curso">Selecionar Curso</label>
+    <select id="seleciona-curso"></select>
+
+    <button class="btn" id="gerar-certificado">Gerar Certificado</button>
+  </div>
+
+  <div class="certificado-preview" id="certificado-preview" style="display:none;">
+    <h3>Prévia do Certificado</h3>
+    <p>Certificamos que <strong id="aluno-nome-cert"></strong> concluiu o curso de <strong id="curso-nome-cert"></strong>.</p>
+    <p><em>Emitido em: <span id="data-emissao-cert"></span></em></p>
+  </div>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js"></script>
+  <script src="JS/certificados.js"></script>
+</body>
+</html>
+

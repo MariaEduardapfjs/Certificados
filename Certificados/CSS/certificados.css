@@ -1,0 +1,131 @@
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #fffaf5;
+  color: #222;
+  padding: 40px;
+}
+.link-voltar {
+    display: block;
+    text-align: left;
+    margin-bottom: 25px;
+    color: #54bb5d; 
+    text-decoration: none;
+    font-size: 14px;
+    transition: text-decoration 0.2s;
+}
+
+.form-box.certificados-box {
+  background-color: #fff;
+  border: 1px solid #ccc;
+  padding: 24px;
+  border-radius: 6px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05);
+  max-width: 550px;
+  margin: 0 auto;
+}
+
+
+.form-box h2 {
+  margin-bottom: 16px;
+  font-size: 20px;
+}
+
+
+label {
+  display: block;
+  margin-top: 12px;
+  margin-bottom: 4px;
+  font-weight: bold;
+}
+
+select {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #aaa;
+  border-radius: 4px;
+  font-size: 14px;
+  background-color: white;
+  color: #333;
+}
+
+
+.btn {
+  margin-top: 20px;
+  background-color: #91c789;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 6px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.btn:hover {
+  background-color: #7cb075;
+}
+
+
+.certificado-preview {
+  background-color: #fff;
+  border: 2px dashed #91c789;
+  padding: 24px;
+  margin: 40px auto 0;
+  border-radius: 8px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05);
+  max-width: 550px;
+  text-align: center;
+  color: #333;
+}
+
+.certificado-preview h3 {
+  color: #6ca86f;
+  margin-bottom: 16px;
+}
+
+.certificados-box {
+  max-width: 600px;
+  margin: 120px auto 40px;
+  background-color: #fff;
+  padding: 24px;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+
+.certificados-box label {
+  font-weight: bold;
+  display: block;
+  margin: 12px 0 4px;
+}
+
+select, input[type="text"], input[type="date"] {
+  width: 100%;
+  padding: 10px;
+  font-size: 14px;
+  border-radius: 4px;
+  border: 1px solid #aaa;
+}
+
+.certificado-preview {
+  text-align: center;
+  margin: 40px auto;
+  max-width: 600px;
+  padding: 20px;
+  background-color: #f0ffe9;
+  border-radius: 8px;
+  border: 1px solid #c7efc4;
+}
+
+.certificado-preview h3 {
+  color: #54bb5d;
+  margin-bottom: 16px;
+}
+
